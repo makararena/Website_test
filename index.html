@@ -9,9 +9,45 @@
 <body>
     <header>
         <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#setup">Setup GA4</a></li>
+                <li><a href="#analysis">Analyze Data</a></li>
+                <li><a href="#reporting">Create Reports</a></li>
+                <li><a href="#newsletter">Newsletter</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <p>This is a simple website to learn Google Analytics.</p>
+        <section id="intro">
+            <p>This is a simple website to learn Google Analytics.</p>
+            <button onclick="location.href='#setup'">Learn GA4 Setup</button>
+            <button onclick="location.href='#analysis'">Learn Data Analysis</button>
+            <button onclick="location.href='#reporting'">Learn Reporting</button>
+        </section>
+        <section id="setup">
+            <h2>Setup GA4</h2>
+            <p>Learn how to set up Google Analytics 4 for your website.</p>
+            <button onclick="alert('GA4 Setup Guide')">Read Setup Guide</button>
+        </section>
+        <section id="analysis">
+            <h2>Analyze Data</h2>
+            <p>Discover how to analyze your website data using GA4.</p>
+            <button onclick="alert('Data Analysis Guide')">Read Analysis Guide</button>
+        </section>
+        <section id="reporting">
+            <h2>Create Reports</h2>
+            <p>Learn how to create custom reports in GA4.</p>
+            <button onclick="alert('Reporting Guide')">Read Reporting Guide</button>
+        </section>
+        <section id="newsletter">
+            <h2>Newsletter</h2>
+            <p>Subscribe to our newsletter to get the latest updates.</p>
+            <form>
+                <input type="email" placeholder="Your email address">
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
     </main>
     <footer>
         <p>&copy; 2024 My Website</p>
